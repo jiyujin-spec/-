@@ -56,9 +56,10 @@ fi
 # ── ライブラリをインストール ──────────────────────────────────
 echo "📦 必要なライブラリをインストール中..."
 "$PYTHON_PATH" -m pip install -q \
-    "google-generativeai" \
+    "google-genai" \
     "requests" \
-    "duckduckgo-search"
+    "duckduckgo-search" \
+    "Pillow"
 echo "✅ ライブラリのインストール完了"
 
 # ── 保存ディレクトリを作成 ────────────────────────────────────
